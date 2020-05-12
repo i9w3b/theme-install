@@ -1,0 +1,38 @@
+{
+    "name": "i9w3b/theme-install",
+    "description": "Instalar Temas em Projetos Laravel",
+    "keywords": ["i9w3b", "laravel", "package", "themes", "theme-install"],
+    "homepage": "https://github.com/i9w3b/theme-install",
+    "license": "MIT",
+    "authors": [{
+        "name": "Marcelo Sena",
+        "email": "suportemarcelosena@gmail.com",
+        "homepage": "https://github.com/i9w3b",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "I9W3b\\ThemeInstall\\ThemeInstallServiceProvider"
+            ],
+            "aliases": {},
+            "branch-alias": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "I9W3b\\ThemeInstall\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "scripts": {},
+    "config": {
+        "sort-packages": true
+    }
+}
