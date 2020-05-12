@@ -40,10 +40,9 @@ class ThemeInstallCommand extends Command
             $this->info(config('themeinstall.msg_info_install'));
             $this->info('');
 
-            // $process = Process::fromShellCommandline("$commandLine");
-            // $process->run();
+            $process = Process::fromShellCommandline("$commandLine");
+            $process->run();
 
-            dd($commandLine);
             if (!$process->isSuccessful()) {
                 throw new ProcessFailedException($process);
             }
