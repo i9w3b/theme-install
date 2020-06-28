@@ -80,4 +80,4 @@ Se encontrar erros ou tiver sugestões de melhorias, acesse: [issues](https://gi
 
 ## Licença
 
-[MIT](https://github.com/i9w3b/theme-install/blob/master/LICENSE.md) © [i9W3b](https://github.com/i9w3b)
+[MIT](https://github.com/i9w3b/theme-install/blob/master/LICENSE.md) © [i9W3b](https://github.com/i9w3b) | Consulte [LICENSE.md](https://github.com/i9w3b/theme-install/blob/master/LICENSE.md) para obter mais informações.
