@@ -1,13 +1,13 @@
-# ThemeInstall
-
-<p align="center" class="text-center" style="text-align:center;"><a href="https://i9w3b.github.io" target="_blank"><img src="https://i9w3b.github.io/i9w3b.png" width="200"></a></p>
+<p align="center" class="text-center" style="text-align:center;"><a href="https://github.com/i9w3b" target="_blank"><img src="https://cdn.jsdelivr.net/gh/i9w3b/cdn/img/logo-200px.png" width="200"></a></p>
 <p align="center" class="text-center" style="text-align:center;">
 <a href="https://github.com/i9w3b/theme-install/blob/master/LICENSE.md"><img src="https://img.shields.io/github/license/i9w3b/theme-install" alt="License"></a>
 <a href="https://github.com/i9w3b/theme-install"><img src="https://img.shields.io/github/languages/count/i9w3b/theme-install" alt="GitHub Language Count"></a>
 <a href="https://github.com/i9w3b/theme-install"><img src="https://img.shields.io/github/repo-size/i9w3b/theme-install" alt="GitHub Repo Size"></a>
 <a href="https://github.com/i9w3b/theme-install/releases"><img src="https://img.shields.io/github/v/release/i9w3b/theme-install" alt="GitHub Release"></a>
-<a href="https://github.com/i9w3b/theme-install"><img src="https://img.shields.io/github/downloads/i9w3b/theme-install/total" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/i9w3b/theme-install"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/i9w3b/theme-install"></a>
 </p>
+
+# ThemeInstall
 
 Instalar temas Laravel hospedados no GitHub
 
@@ -19,7 +19,7 @@ $ php artisan ui bootstrap --auth
 $ npm install && npm run dev
 ```
 
-## Estrutura do tema padrão
+## Estrutura
 
 ```txt
 layouts/
@@ -27,6 +27,14 @@ layouts/
 └── shared/
     └── css.blade.php
 home.blade.php
+welcome.blade.php
+```
+
+## Estrutura do tema da instalação padrão
+
+```txt
+layouts/
+├── app.blade.php
 welcome.blade.php
 ```
 
